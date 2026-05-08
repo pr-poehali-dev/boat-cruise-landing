@@ -51,12 +51,6 @@ const GALLERY_IMAGES = [
   { src: "https://cdn.poehali.dev/projects/757515da-821f-4e38-bf04-e525364bd9ab/bucket/3251939e-7dab-453f-b190-6c123411ecf4.png", caption: "Логотип катера" },
   { src: "https://cdn.poehali.dev/projects/757515da-821f-4e38-bf04-e525364bd9ab/bucket/85e66144-ba27-4107-8d33-864e5ded58ec.png", caption: "Борт катера" },
   { src: "https://cdn.poehali.dev/projects/757515da-821f-4e38-bf04-e525364bd9ab/bucket/ca4b34c3-e78d-4bcd-a85d-ed6a86ca34ad.png", caption: "Рубка и приборы" },
-  { src: HERO_IMAGE, caption: "Утренний выход" },
-  { src: HERO_IMAGE, caption: "Лазурные воды" },
-  { src: HERO_IMAGE, caption: "Скрытая бухта" },
-  { src: HERO_IMAGE, caption: "Закат в море" },
-  { src: HERO_IMAGE, caption: "На борту" },
-  { src: HERO_IMAGE, caption: "Берег мечты" },
 ];
 
 const PRICES = [
