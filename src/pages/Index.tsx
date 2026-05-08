@@ -47,6 +47,7 @@ const BOAT_IMAGE = "https://cdn.poehali.dev/projects/757515da-821f-4e38-bf04-e52
 
 const GALLERY_IMAGES = [
   { src: BOAT_IMAGE, caption: 'Катер "Брат"' },
+  { src: "https://cdn.poehali.dev/projects/757515da-821f-4e38-bf04-e525364bd9ab/bucket/5bb3fb11-48b7-44db-93f4-c0ee651a66eb.jpg", caption: "Подготовка к сезону" },
   { src: HERO_IMAGE, caption: "Утренний выход" },
   { src: HERO_IMAGE, caption: "Лазурные воды" },
   { src: HERO_IMAGE, caption: "Скрытая бухта" },
