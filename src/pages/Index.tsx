@@ -43,7 +43,10 @@ const ROUTES = [
   },
 ];
 
+const BOAT_IMAGE = "https://cdn.poehali.dev/projects/757515da-821f-4e38-bf04-e525364bd9ab/bucket/fe5e4b73-7078-4341-87be-e153d46d32d0.png";
+
 const GALLERY_IMAGES = [
+  { src: BOAT_IMAGE, caption: 'Катер "Брат"' },
   { src: HERO_IMAGE, caption: "Утренний выход" },
   { src: HERO_IMAGE, caption: "Лазурные воды" },
   { src: HERO_IMAGE, caption: "Скрытая бухта" },
