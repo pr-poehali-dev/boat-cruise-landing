@@ -193,7 +193,7 @@ export default function Index() {
 
         <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
           <p
-            className="text-sand-300 font-golos text-sm tracking-[0.3em] uppercase mb-6 opacity-0 animate-fade-in"
+            className="text-white font-golos text-base md:text-lg tracking-[0.3em] uppercase mb-6 opacity-0 animate-fade-in drop-shadow-md"
             style={{ animationDelay: "0.3s" }}
           >
             ☀ Морские прогулки
