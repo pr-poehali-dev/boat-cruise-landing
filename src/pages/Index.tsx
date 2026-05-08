@@ -536,13 +536,18 @@ export default function Index() {
             ))}
           </div>
 
-          <div className="rounded-3xl overflow-hidden h-64 bg-sea-100 flex items-center justify-center">
-            <div className="text-center text-sea-400">
-              <Icon name="Map" size={40} className="mx-auto mb-3" />
-              <p className="font-medium">Карта с расположением причала</p>
-              <p className="text-sm mt-1">Здесь будет встроена карта</p>
+          <a
+            href="https://2gis.ru/crimea/search/Балаклава%20причал?m=33.599937%2C44.501206%2F17.63"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-3xl overflow-hidden h-64 bg-sea-100 flex items-center justify-center group hover:bg-sea-200 transition-colors cursor-pointer block"
+          >
+            <div className="text-center text-sea-500">
+              <Icon name="MapPin" size={40} className="mx-auto mb-3 group-hover:scale-110 transition-transform" />
+              <p className="font-medium text-sea-700">г. Балаклава, причал</p>
+              <p className="text-sm mt-1 text-sea-500">Открыть на карте 2ГИС →</p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
