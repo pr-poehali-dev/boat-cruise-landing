@@ -523,7 +523,7 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
               { icon: "MapPin", label: "Адрес", value: "Яхтенный причал, берег №3" },
-              { icon: "Phone", label: "Телефон", value: "+7 (800) 000-00-00" },
+              { icon: "Phone", label: "Телефон", value: "+7 (978) 640-94-93 Евгений" },
               { icon: "Clock", label: "Часы работы", value: "Ежедневно 8:00 – 20:00" },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center text-center">
