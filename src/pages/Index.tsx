@@ -191,9 +191,9 @@ export default function Index() {
           <div className="absolute inset-0 bg-gradient-to-b from-sea-900/60 via-sea-800/40 to-sea-900/70" />
         </div>
 
-        <div className="relative z-10 text-white px-6 max-w-4xl mx-auto ml-auto mr-16 md:mr-24 text-right">
+        <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
           <p
-            className="text-sand-300 font-golos text-base md:text-lg tracking-[0.3em] uppercase mb-6 opacity-0 animate-fade-in"
+            className="text-sand-300 font-golos text-sm tracking-[0.3em] uppercase mb-6 opacity-0 animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
             ☀ Морские прогулки
@@ -207,13 +207,13 @@ export default function Index() {
             <em className="font-light italic">с нами</em>
           </h1>
           <p
-            className="text-white/80 text-lg md:text-xl max-w-xl ml-auto mb-10 leading-relaxed opacity-0 animate-fade-up"
+            className="text-white/80 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-up"
             style={{ animationDelay: "0.8s" }}
           >
             Незабываемые прогулки на катере вдоль живописного побережья. Закаты, острова, кристальные бухты.
           </p>
           <div
-            className="flex flex-col sm:flex-row gap-4 justify-end opacity-0 animate-fade-up"
+            className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-up"
             style={{ animationDelay: "1.1s" }}
           >
             <button
