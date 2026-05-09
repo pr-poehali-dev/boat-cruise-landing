@@ -52,14 +52,7 @@ export default function HeroSection({ scrollTo }: HeroSectionProps) {
       {/* HERO */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <iframe
-            src="https://vkvideo.ru/clip_ext.php?oid=-217442723&id=456239021&autoplay=1"
-            allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
-            frameBorder="0"
-            allowFullScreen
-            className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-            style={{ background: "#000" }}
-          />
+          <img src={HERO_IMAGE} alt="Морская прогулка" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-sea-900/60 via-sea-800/40 to-sea-900/70" />
         </div>
 
